@@ -11,3 +11,9 @@ edx-platform/common/djangoapps/student/models.py
 edx-platform/common/djangoapps/student/views/management.py     
 1. https://github.com/eazaika/open_edX-University2035-enroll/blob/332d79ac4fbcde5c9afeb168c7fbc024ec2a0c97/common/djangoapps/student/views/management.py#L413    
 2. https://github.com/eazaika/open_edX-University2035-enroll/blob/332d79ac4fbcde5c9afeb168c7fbc024ec2a0c97/common/djangoapps/student/views/management.py#L456    
+
+edx-platform/lms/envs/aws.py  
+INSTALLED_APPS += (  
+...  
+    'unti2035',  
+)  
